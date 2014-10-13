@@ -2,12 +2,12 @@
 
 Summary:	SASL library
 Name:		libsasl2
-Version:	2.1.25
+Version:	2.1.26
 Release:	1
 License:	distributable
 Group:		Libraries
-Source0:	ftp://ftp.andrew.cmu.edu/pub/cyrus/%{org_name}-%{version}.tar.gz
-# Source0-md5:	341cffe829a4d71f2a6503d669d5a946
+Source0:	ftp://ftp.cyrusimap.org/cyrus-sasl/%{org_name}-%{version}.tar.gz
+# Source0-md5:	a7f4e5e559a0e37b3ffc438c9456e425
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
